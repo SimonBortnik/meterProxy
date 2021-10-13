@@ -5,6 +5,7 @@ This is a proxy component which forks the datastream: Requests are not only prox
 Set up a [Mosquitto](https://mosquitto.org/download/) instance. I recommend using their [docker image](https://hub.docker.com/_/eclipse-mosquitto) since it saves you the annoying setup.
 
 Change the IP address to your Mosquitto instance in app.js.
+Change the target address to the target application.
 
 ```shell
 $ npm install
